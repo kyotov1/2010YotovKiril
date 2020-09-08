@@ -30,6 +30,7 @@ namespace Task_04
             Console.WriteLine($"I={U/R:f2}");
             //Printing used electricity
             Console.WriteLine($"P={U*U/R:f2}");
+            Console.ReadLine();
 
         }//end Mian().
     }//End Class

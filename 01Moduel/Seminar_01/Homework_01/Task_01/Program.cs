@@ -25,7 +25,7 @@ namespace Task_01
             st += Console.ReadLine() + "! ";
             st += Console.ReadLine() + "! ";
             Console.WriteLine(st);
-            
+            Console.ReadLine();
         }//End Main().
     }//End Class Program.
 }//End namespace Task_01.

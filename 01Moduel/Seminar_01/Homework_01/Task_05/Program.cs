@@ -27,6 +27,7 @@ namespace Task_05
             c = a * b / 2;
             //Printing answer
             Console.WriteLine("c={0:f2}",c);
+            Console.ReadLine();
 
 
         }//End Main()

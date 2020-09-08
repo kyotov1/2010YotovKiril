@@ -32,6 +32,7 @@ namespace ASCIIDecoder
                 Console.WriteLine("To repeate enter ESCAPE and any other button to continue.");
                 //Esacape for exit
             } while (Console.ReadKey(true).Key!=ConsoleKey.Escape);
+            Console.ReadLine();
         }//End Mian()
     }//End class
 }//End namespace

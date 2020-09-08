@@ -22,6 +22,7 @@ namespace Task_02
                 st += "-" + Console.ReadLine() + "-"+Environment.NewLine;
             //Printing output. 
             Console.WriteLine(st);
+            Console.ReadLine();
         }//End Main()
     }//End Class
 }//End namespace
