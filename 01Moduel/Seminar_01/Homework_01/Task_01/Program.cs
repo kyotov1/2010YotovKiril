@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_01
+namespace Task_01
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nothing");
+            ///
         }
     }
 }
