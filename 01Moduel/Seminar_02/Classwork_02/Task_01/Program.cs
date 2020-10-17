@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Task_01
 {
@@ -17,7 +14,7 @@ namespace Task_01
             b= 0;
             b = (1 + Math.Sqrt(5)) / 2;
         }
-
+       
         /// <summary>
         /// Method is calulating Un and returning its value.
         /// </summary>
@@ -35,8 +32,10 @@ namespace Task_01
         {
             //variable inicialize
             int n;
+            //Checking input
             do Console.Write("n=");
             while (!int.TryParse(Console.ReadLine(), out n)|| n<=0) ;
+            //Priting input
             Console.WriteLine(Math.Round(Un(n)));
             
         }
